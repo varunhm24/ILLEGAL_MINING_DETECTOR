@@ -1,0 +1,22 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset (large, not needed for deployment)
+Imagens_Dateset_Garimpo/
+*.zip
+
+# Training leftovers
+best.pt
+*.pth
+
+# Streamlit secrets / OS / editor files
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+.vscode/
+.ipynb_checkpoints/
